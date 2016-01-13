@@ -1,0 +1,12 @@
+[17-Jul-2014 10:29:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'aesantos_admin'@'localhost' to database 'aesdsantos_gradeAssist'' in /home3/aesantos/public_html/project3105/model/database.php:7
+Stack trace:
+#0 /home3/aesantos/public_html/project3105/model/database.php(7): PDO->__construct('mysql:host=loca...', 'aesantos_admin', 'Ana2691!')
+#1 /home3/aesantos/public_html/project3105/util/getUser.php(2): require_once('/home3/aesantos...')
+#2 {main}
+  thrown in /home3/aesantos/public_html/project3105/model/database.php on line 7
+[17-Jul-2014 12:42:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'rcruz000_admin'@'localhost' (using password: YES)' in /home3/rcruz000/public_html/project3105/model/database.php:6
+Stack trace:
+#0 /home3/rcruz000/public_html/project3105/model/database.php(6): PDO->__construct('mysql:host=loca...', 'rcruz000_admin', 'hBHz+I(1')
+#1 /home3/rcruz000/public_html/project3105/util/getUser.php(2): require_once('/home3/rcruz000...')
+#2 {main}
+  thrown in /home3/rcruz000/public_html/project3105/model/database.php on line 6

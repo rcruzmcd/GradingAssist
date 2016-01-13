@@ -1,0 +1,19 @@
+[25-Nov-2012 00:37:06 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/rcruz000/public_html/project3105/model/parents_db.php on line 15
+[25-Nov-2012 00:37:12 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/rcruz000/public_html/project3105/model/parents_db.php on line 15
+[25-Nov-2012 00:39:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/rcruz000/public_html/project3105/model/database.php:6
+Stack trace:
+#0 /home/rcruz000/public_html/project3105/model/database.php(6): PDO->__construct('mysql:host=loca...', 'root', 'rootpw')
+#1 /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php(3): require_once('/home/rcruz000/...')
+#2 {main}
+  thrown in /home/rcruz000/public_html/project3105/model/database.php on line 6
+[25-Nov-2012 02:20:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'rcruz000_admin'@'localhost' to database 'rcruz000_gradeAssit'' in /home/rcruz000/public_html/project3105/model/database.php:6
+Stack trace:
+#0 /home/rcruz000/public_html/project3105/model/database.php(6): PDO->__construct('mysql:host=loca...', 'rcruz000_admin', 'DOM!mcd784')
+#1 /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php(3): require_once('/home/rcruz000/...')
+#2 {main}
+  thrown in /home/rcruz000/public_html/project3105/model/database.php on line 6
+[25-Nov-2012 17:34:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php on line 36
+[25-Nov-2012 17:38:10 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php on line 33
+[25-Nov-2012 17:38:29 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php on line 33
+[25-Nov-2012 17:38:31 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php on line 33
+[25-Nov-2012 17:38:54 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/rcruz000/public_html/project3105/parent/retrieveTranscript.php on line 33

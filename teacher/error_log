@@ -1,0 +1,1 @@
+[25-Nov-2012 00:12:38 UTC] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/rcruz000/public_html/project3105/teacher/teacherCourses.php:2) in /home/rcruz000/public_html/project3105/view/header.php on line 2
